@@ -1,1 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
+// Переопределение переменных first
+$primary: #900;
+$enable-shadows: true;
+$prefix: "mo-";
+
+// Затем импортируйте Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
